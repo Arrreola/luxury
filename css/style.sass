@@ -1,0 +1,154 @@
+@import "neat/neat"
+$movile: "(max-width: 767px)"
+$tablet: "(min-width: 768px) and (max-width: 1023px)"
+$desktop: "(min-width: 1024px)"
+
+body
+  padding: 0
+  margin: 0
+  background: #eee
+  line-height: 15px
+  text-rendering: geometricprecision
+h1
+  font-family: "Adobe Caslon Pro", Garamond
+  font-size: 30px
+  color: #61666b
+  font-weight: 100
+  line-height: 30px
+  text-transform: uppercase
+  margin-bottom: 15px
+  max-width: 300px
+h1::first-letter
+  font-size: 40px
+h2
+  font-family: "Myriad Pro"
+  font-size: 12px
+  font-weight: 100
+  color: #9da5ae
+  line-height: 15px
+  margin-bottom: 30px
+.side-a
+  overflow: hidden
+  height: 100vh
+  /*BACKGROUND:COLOR URL REPEAT POSITION / COVER*/
+  background:  url("../img/backgrounds/back-1.png") center / cover
+.side-a-square
+  border: 2px solid white
+  width: 90%
+  height: 90%
+  position: relative
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+.side-b
+  max-width: 450px
+  height: 100vh
+  float: right
+  background-color: white
+nav
+  padding: 30px
+.nav-logo
+  width: 115px
+  opacity: .7
+.side-b-main-content
+  padding: 30px 60px
+input
+  width: 100%
+  display: block
+  margin-bottom: 15px
+  height: 30px
+  border: 1px solid #cdd3da
+  border-radius: 3px
+  padding-left: 15px
+  color: #bfc9d5
+input:focus
+  color: #9da5ae
+.form-button
+  width: 122px
+  background: #d7e6f1
+  border: 1px solid #d7e6f1
+  color: #8f9cac
+  display: inline-block
+  transition: all 0.2s ease
+.form-button:hover
+  background: #cadae5
+  transition: all 0.2s ease
+form a
+  display: inline-block
+  font-family: "Myriad Pro"
+  font-size: 12px
+  font-weight: 100
+  color: #bfc9d5
+  margin: 0 15px
+footer
+  position: absolute
+  bottom: 0
+footer li
+  display: inline-block
+  list-style: none
+footer li img
+  display: inline-block
+  height: 40px
+  margin: 0px 13px
+.blackout
+  position: fixed
+  background: rgba(143,158,175,.6)
+  width: 100%
+  height: 100%
+  z-index: 3
+  transition: all 0.5s ease
+.msg-succes
+  width: 663px
+  height: 428px
+  background: white url('../img/backgrounds/back-succes.png') no-repeat right top / 40%
+  box-shadow: 1px 1px 5px rgba(0,0,0,.3)
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  position: absolute
+  padding: 15px
+  z-index: 4
+.msg-succes-square
+  width: 100%
+  height: 100%
+  border: 1px solid #8f9eaf
+  padding: 45px
+.msg-succes-heading
+  font-family: "Adobe Caslon Pro"
+  font-size: 30px
+  color: #61666b
+  font-weight: 100
+  line-height: 30px
+  text-transform: uppercase
+  margin-bottom: 15px
+  width: 300px
+  display: block
+.msg-succes-heading::first-letter
+  font-size: 40px
+.msg-succes-text
+  width: 345px
+  display: block
+  font-family: "Myriad Pro"
+  font-size: 12px
+  font-weight: 100
+  color: #9da5ae
+  line-height: 15px
+  margin-bottom: 15px
+#map
+  width: 345px
+  height: 136px
+  background: #eee
+  margin-bottom: 15px
+.msg-succes-direccion
+  width: 345px
+  display: block
+  font-family: "Myriad Pro"
+  font-size: 12px
+  font-weight: 100
+  color: #9da5ae
+  line-height: 15px
+  margin-bottom: 15px
+
+@media only screen and #{$movile}
+  .side-a
+    display: none
