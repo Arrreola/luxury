@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0af66289-2b63-414e-89fe-d969145de107" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/msg-succes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/send.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0af66289-2b63-414e-89fe-d969145de107" name="Default" comment="" />
     <ignored path="luxury.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -333,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1469664215358</updated>
       <workItem from="1469664216536" duration="1249000" />
-      <workItem from="1469716309901" duration="17806000" />
+      <workItem from="1469716309901" duration="17860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19055000" />
+    <option name="totallyTimeSpent" value="19109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="191" width="2397" height="1051" extended-state="0" />
