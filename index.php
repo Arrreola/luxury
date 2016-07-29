@@ -84,7 +84,7 @@
 <div class="add-blackout"></div>
 <div class="msg append"></div>
 
-<div class="side-a">
+<div class="side-a" id="side-a">
     <div class="side-a-square"></div>
 </div>
 

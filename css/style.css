@@ -35,6 +35,8 @@ h2 {
 .side-a {
   overflow: hidden;
   height: 100vh;
+  background-size: cover;
+  background-position: center;
   /*BACKGROUND:COLOR URL REPEAT POSITION / COVER */
   background: url("../img/backgrounds/back-1.png") center/cover; }
 

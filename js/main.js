@@ -45,3 +45,24 @@ function initMap() {
         title: 'Super Colchones | Luxury'
     });
 }
+
+// BACKGROUND CHANGER
+
+$(function () {
+    var body = $('.side-a');
+    var backgrounds = [
+        'url(img/backgrounds/back-1.png) center / cover',
+        'url(img/backgrounds/back-2.png) center / cover',
+        'url(img/backgrounds/back-3.png) center / cover',];
+    var current = 0;
+
+    function nextBackground() {
+        body.css(
+            'background',
+            backgrounds[current = ++current % backgrounds.length]);
+
+        setTimeout(nextBackground, 5000);
+    }
+    setTimeout(nextBackground, 5000);
+    body.css('background', backgrounds[0]);
+});
