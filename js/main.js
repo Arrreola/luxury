@@ -1,3 +1,16 @@
+//DOM
+$(window).load(function(){
+    $("#side-a").backstretch([
+        'img/backgrounds/back-1.png',
+        'img/backgrounds/back-2.png',
+        'img/backgrounds/back-3.png',
+        'img/backgrounds/back-4.png'
+    ], {duration: 5000, fade: 750});
+});
+
+//END DOM
+
+
 function validateForm(idObj) {
 
     var _form = $('#' + idObj);
@@ -48,21 +61,21 @@ function initMap() {
 
 // BACKGROUND CHANGER
 
-$(function () {
-    var body = $('.side-a');
-    var backgrounds = [
-        'url(img/backgrounds/back-1.png) center / cover',
-        'url(img/backgrounds/back-2.png) center / cover',
-        'url(img/backgrounds/back-3.png) center / cover',];
-    var current = 0;
-
-    function nextBackground() {
-        body.css(
-            'background',
-            backgrounds[current = ++current % backgrounds.length]);
-
-        setTimeout(nextBackground, 5000);
-    }
-    setTimeout(nextBackground, 5000);
-    body.css('background', backgrounds[0]);
-});
+// $(function () {
+//     var body = $('.side-a');
+//     var backgrounds = [
+//         'url(img/backgrounds/back-1.png) center / cover',
+//         'url(img/backgrounds/back-2.png) center / cover',
+//         'url(img/backgrounds/back-3.png) center / cover',];
+//     var current = 0;
+//
+//     function nextBackground() {
+//         body.css(
+//             'background',
+//             backgrounds[current = ++current % backgrounds.length]);
+//
+//         setTimeout(nextBackground, 5000);
+//     }
+//     setTimeout(nextBackground, 5000);
+//     body.css('background', backgrounds[0]);
+// });

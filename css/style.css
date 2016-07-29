@@ -37,11 +37,10 @@ h2 {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  /*BACKGROUND:COLOR URL REPEAT POSITION / COVER */
-  background: url("../img/backgrounds/back-1.png") center/cover; }
+  /*BACKGROUND:COLOR URL REPEAT POSITION / COVER */ }
 
 .side-a-square {
-  border: 2px solid white;
+  border: 1px solid white;
   width: 90%;
   height: 90%;
   position: relative;
@@ -179,6 +178,31 @@ footer li img {
 
 @media only screen and (max-width: 767px) {
   .side-a {
-    display: none; } }
+    display: none; }
+
+  h1 {
+    font-size: 27px; }
+
+  h1::first-letter {
+    font-size: 40px; }
+
+  footer li img {
+    height: 30px;
+    margin: 0 10px; }
+
+  .msg-succes {
+    width: 90%; }
+
+  .msg-succes-square {
+    padding: 30px 15px; }
+
+  .msg-succes-heading {
+    width: auto; }
+
+  .msg-succes-text {
+    width: auto; }
+
+  #map {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
