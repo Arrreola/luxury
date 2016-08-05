@@ -13,7 +13,7 @@ body {
 
 h1 {
   font-family: "Adobe Caslon Pro", Garamond;
-  font-size: 30px;
+  font-size: 25px;
   color: #61666b;
   font-weight: 100;
   line-height: 30px;
@@ -22,7 +22,7 @@ h1 {
   max-width: 300px; }
 
 h1::first-letter {
-  font-size: 40px; }
+  font-size: 30px; }
 
 h2 {
   font-family: "Myriad Pro";
@@ -167,7 +167,7 @@ footer li img {
   margin-bottom: 15px; }
 
 .msg-succes-direccion {
-  width: 345px;
+  max-width: 345px;
   display: block;
   font-family: "Myriad Pro";
   font-size: 12px;
@@ -175,6 +175,34 @@ footer li img {
   color: #9da5ae;
   line-height: 15px;
   margin-bottom: 15px; }
+
+.contacto-area {
+  border: 1px solid #cdd3da;
+  border-radius: 3px;
+  padding: 20px; }
+
+.contacto-area hr {
+  height: 1px;
+  border: none;
+  background: #cdd3da; }
+
+.hide {
+  display: none; }
+
+.direccion {
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  font-weight: 100;
+  color: #cdd3da; }
+
+.direccion-button {
+  margin-left: 15px;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  font-weight: 100;
+  color: #cdd3da;
+  text-decoration: underline;
+  cursor: pointer; }
 
 @media only screen and (max-width: 767px) {
   .side-a {

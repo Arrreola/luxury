@@ -11,6 +11,13 @@ $(window).load(function(){
 //END DOM
 
 
+$(window).ready(function(){
+    $( "#showDirection" ).click(function() {
+        $( ".hide" ).toggle(function() {
+        });
+    });
+});
+
 function validateForm(idObj) {
 
     var _form = $('#' + idObj);

@@ -64,14 +64,24 @@
         <img class="nav-logo" src="img/logos/luxury.png" alt="">
     </nav>
     <div class="side-b-main-content">
-        <h1>Copy en su version corta.</h1>
-        <h2>Aqui va un texto que hable acerca de la marca y unas cuantas cosas mas para lograr envolver al usuario y que realice una sita, para la compra de su colchonsin, aproximadamente.</h2>
+        <h1>Agenda una cita con un especialista.</h1>
+        <h2>En Luxury Collection vendemos los más exclusivos sistemas de descanso de las marcas más importantes del mundo, por eso queremos presentarte las ventajas de nuestros mejores sistemas de descanso y la gran variedad de modelos que manejamos.</h2>
         <form enctype="multipart/form-data" name="pagerform" id="pageForm">
             <input type="text" name="nombre" placeholder="Nombre" class="required movil">
             <input type="text" name="correo" placeholder="Correo" class="required movil">
             <input type="text" name="telefono" placeholder="Teléfono" class="required movil">
             <input type="button" name="enviar" id="enviar" value="Enviar" onclick="validateForm('pageForm')" class="form-button">
-            <a href="#">Contacto</a>
+            <span id="showDirection" class="direccion-button">Contacto</span>
+            <div class="contacto-area hide">
+                <span class="direccion">
+                    Dirección: Calzada San Pedro 208, Del Valle, 66220 San Pedro Garza García, N.L.
+                </span>
+                <hr>
+                <span class="direccion">
+                    Teléfono: 8335-4849
+                </span>
+            </div>
+            
         </form>
     </div>
     <footer>
